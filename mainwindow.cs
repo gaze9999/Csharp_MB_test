@@ -32,7 +32,7 @@ namespace test1
                     {
                         richTextBox1.LoadFile(opf.FileName, RichTextBoxStreamType.PlainText);
                     }
-                    catch (SecurityException ex)
+                catch (SecurityException ex)
                     {
                         MessageBox.Show($"Security error.\n\nError message: {ex.Message}\n\n" +
                         $"Details:\n\n{ex.StackTrace}");
@@ -40,7 +40,13 @@ namespace test1
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void search_btn_Click(object sender, EventArgs e)
+        {
+            search f2 = new search();
+            f2.ShowDialog(); // Shows Form2
+        }
+
+        private void savebtn_Click(object sender, EventArgs e)
         {
 
         }
