@@ -51,6 +51,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox1.Location = new System.Drawing.Point(93, 12);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(479, 387);
             this.richTextBox1.TabIndex = 10;
             this.richTextBox1.Text = "";
@@ -71,7 +72,7 @@
             this.savebtn.Name = "savebtn";
             this.savebtn.Size = new System.Drawing.Size(75, 23);
             this.savebtn.TabIndex = 2;
-            this.savebtn.Text = "Save";
+            this.savebtn.Text = "Save File";
             this.savebtn.UseVisualStyleBackColor = true;
             this.savebtn.Click += new System.EventHandler(this.savebtn_Click);
             // 
@@ -96,9 +97,9 @@
         #endregion
 
         private System.Windows.Forms.Button Load_file;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button search_btn;
         private System.Windows.Forms.Button savebtn;
+        public  System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
