@@ -24,13 +24,14 @@ namespace test1
             OpenFileDialog opf = new OpenFileDialog();
             opf.Title = "Select file";
             opf.InitialDirectory = ".\\";
-            opf.Filter = "json files (*.*)|*.json";
+            opf.Filter = "json files (*.*)|*.json|Text files (*.*)|*.txt";
+
             if (opf.ShowDialog() == DialogResult.OK)
             {
                 String[] filelines = File.ReadAllLines(opf.FileName);
                 try
                     {
-                        richTextBox1.LoadFile(opf.FileName, RichTextBoxStreamType.PlainText);
+                        richTextBox1.LoadFile(opf.FileName, RichTextBoxStreamType.PlainText); //show in text box
                     }
                 catch (SecurityException ex)
                     {
@@ -48,7 +49,16 @@ namespace test1
 
         private void savebtn_Click(object sender, EventArgs e)
         {
+            SaveFileDialog svf = new SaveFileDialog();
+            svf.Title = "Select file";
+            svf.FilterIndex = 2;
+            svf.Filter = "json files (*.*)|*.json|Text files (*.*)|*.txt";
+            svf.RestoreDirectory = true;
 
+            if (svf.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.SaveFile(svf.FileName, RichTextBoxStreamType.PlainText);
+            }
         }
     }
 }
