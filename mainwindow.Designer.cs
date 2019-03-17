@@ -30,8 +30,8 @@
         {
             this.Load_file = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.search_btn = new System.Windows.Forms.Button();
-            this.savebtn = new System.Windows.Forms.Button();
+            this.Search_btn = new System.Windows.Forms.Button();
+            this.Savebtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Load_file
@@ -56,33 +56,33 @@
             this.richTextBox1.TabIndex = 10;
             this.richTextBox1.Text = "";
             // 
-            // search_btn
+            // Search_btn
             // 
-            this.search_btn.Location = new System.Drawing.Point(12, 41);
-            this.search_btn.Name = "search_btn";
-            this.search_btn.Size = new System.Drawing.Size(75, 23);
-            this.search_btn.TabIndex = 1;
-            this.search_btn.Text = "Search";
-            this.search_btn.UseVisualStyleBackColor = true;
-            this.search_btn.Click += new System.EventHandler(this.search_btn_Click);
+            this.Search_btn.Location = new System.Drawing.Point(12, 41);
+            this.Search_btn.Name = "Search_btn";
+            this.Search_btn.Size = new System.Drawing.Size(75, 23);
+            this.Search_btn.TabIndex = 1;
+            this.Search_btn.Text = "Search";
+            this.Search_btn.UseVisualStyleBackColor = true;
+            this.Search_btn.Click += new System.EventHandler(this.Search_btn_Click);
             // 
-            // savebtn
+            // Savebtn
             // 
-            this.savebtn.Location = new System.Drawing.Point(12, 70);
-            this.savebtn.Name = "savebtn";
-            this.savebtn.Size = new System.Drawing.Size(75, 23);
-            this.savebtn.TabIndex = 2;
-            this.savebtn.Text = "Save File";
-            this.savebtn.UseVisualStyleBackColor = true;
-            this.savebtn.Click += new System.EventHandler(this.savebtn_Click);
+            this.Savebtn.Location = new System.Drawing.Point(12, 70);
+            this.Savebtn.Name = "Savebtn";
+            this.Savebtn.Size = new System.Drawing.Size(75, 23);
+            this.Savebtn.TabIndex = 2;
+            this.Savebtn.Text = "Save File";
+            this.Savebtn.UseVisualStyleBackColor = true;
+            this.Savebtn.Click += new System.EventHandler(this.Savebtn_Click);
             // 
             // Test
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 411);
-            this.Controls.Add(this.savebtn);
-            this.Controls.Add(this.search_btn);
+            this.Controls.Add(this.Savebtn);
+            this.Controls.Add(this.Search_btn);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.Load_file);
             this.MinimumSize = new System.Drawing.Size(600, 300);
@@ -97,8 +97,8 @@
         #endregion
 
         private System.Windows.Forms.Button Load_file;
-        private System.Windows.Forms.Button search_btn;
-        private System.Windows.Forms.Button savebtn;
+        private System.Windows.Forms.Button Search_btn;
+        private System.Windows.Forms.Button Savebtn;
         public  System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
