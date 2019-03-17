@@ -5,6 +5,9 @@ namespace test1
 {
     public partial class search : Form
     {
+
+        public static string kw = "";
+
         public search()
         {
             InitializeComponent();
@@ -12,8 +15,7 @@ namespace test1
 
         private void okbtn_Click(object sender, EventArgs e)
         {
-            int len = test1.Test.richTextBox1.Lines.Length;
-
+            string tbt = Test.rtb;
         }
 
         private void cncbtn_Click(object sender, EventArgs e)
