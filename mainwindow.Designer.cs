@@ -33,9 +33,9 @@
             this.Search_btn = new System.Windows.Forms.Button();
             this.Savebtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
+            //
             // Load_file
-            // 
+            //
             this.Load_file.Location = new System.Drawing.Point(12, 12);
             this.Load_file.Name = "Load_file";
             this.Load_file.Size = new System.Drawing.Size(75, 23);
@@ -43,9 +43,9 @@
             this.Load_file.Text = "Loading File";
             this.Load_file.UseVisualStyleBackColor = true;
             this.Load_file.Click += new System.EventHandler(this.Load_Click);
-            // 
+            //
             // richTextBox1
-            // 
+            //
             this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -55,9 +55,9 @@
             this.richTextBox1.Size = new System.Drawing.Size(479, 387);
             this.richTextBox1.TabIndex = 10;
             this.richTextBox1.Text = "";
-            // 
+            //
             // Search_btn
-            // 
+            //
             this.Search_btn.Location = new System.Drawing.Point(12, 41);
             this.Search_btn.Name = "Search_btn";
             this.Search_btn.Size = new System.Drawing.Size(75, 23);
@@ -65,9 +65,9 @@
             this.Search_btn.Text = "Search";
             this.Search_btn.UseVisualStyleBackColor = true;
             this.Search_btn.Click += new System.EventHandler(this.Search_btn_Click);
-            // 
+            //
             // Savebtn
-            // 
+            //
             this.Savebtn.Location = new System.Drawing.Point(12, 70);
             this.Savebtn.Name = "Savebtn";
             this.Savebtn.Size = new System.Drawing.Size(75, 23);
@@ -75,9 +75,9 @@
             this.Savebtn.Text = "Save File";
             this.Savebtn.UseVisualStyleBackColor = true;
             this.Savebtn.Click += new System.EventHandler(this.Savebtn_Click);
-            // 
+            //
             // Test
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 411);
