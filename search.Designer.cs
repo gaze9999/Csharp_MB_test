@@ -29,40 +29,40 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(search));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.cncbtn = new System.Windows.Forms.Button();
-            this.okbtn = new System.Windows.Forms.Button();
+            this.TextBox1 = new System.Windows.Forms.TextBox();
+            this.Cncbtn = new System.Windows.Forms.Button();
+            this.Okbtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // TextBox1
             // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
+            resources.ApplyResources(this.TextBox1, "TextBox1");
+            this.TextBox1.Name = "TextBox1";
             // 
-            // cncbtn
+            // Cncbtn
             // 
-            this.cncbtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            resources.ApplyResources(this.cncbtn, "cncbtn");
-            this.cncbtn.Name = "cncbtn";
-            this.cncbtn.UseVisualStyleBackColor = true;
-            this.cncbtn.Click += new System.EventHandler(this.cncbtn_Click);
+            this.Cncbtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            resources.ApplyResources(this.Cncbtn, "Cncbtn");
+            this.Cncbtn.Name = "Cncbtn";
+            this.Cncbtn.UseVisualStyleBackColor = true;
+            this.Cncbtn.Click += new System.EventHandler(this.Cncbtn_Click);
             // 
-            // okbtn
+            // Okbtn
             // 
-            this.okbtn.DialogResult = System.Windows.Forms.DialogResult.OK;
-            resources.ApplyResources(this.okbtn, "okbtn");
-            this.okbtn.Name = "okbtn";
-            this.okbtn.UseVisualStyleBackColor = true;
-            this.okbtn.Click += new System.EventHandler(this.okbtn_Click);
+            this.Okbtn.DialogResult = System.Windows.Forms.DialogResult.OK;
+            resources.ApplyResources(this.Okbtn, "Okbtn");
+            this.Okbtn.Name = "Okbtn";
+            this.Okbtn.UseVisualStyleBackColor = true;
+            this.Okbtn.Click += new System.EventHandler(this.Okbtn_Click);
             // 
             // search
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ControlBox = false;
-            this.Controls.Add(this.okbtn);
-            this.Controls.Add(this.cncbtn);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Okbtn);
+            this.Controls.Add(this.Cncbtn);
+            this.Controls.Add(this.TextBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -76,8 +76,8 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button cncbtn;
-        private System.Windows.Forms.Button okbtn;
+        private System.Windows.Forms.TextBox TextBox1;
+        private System.Windows.Forms.Button Cncbtn;
+        private System.Windows.Forms.Button Okbtn;
     }
 }

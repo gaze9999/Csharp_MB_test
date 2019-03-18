@@ -13,12 +13,24 @@ namespace test1
             InitializeComponent();
         }
 
-        private void okbtn_Click(object sender, EventArgs e)
+        private void Okbtn_Click(object sender, EventArgs e)
         {
+            /*
+            char[] aw = kw.ToCharArray();
             string tbt = Test.rtb;
+            int tblen = tbt.Length;
+            int clen = 0;
+
+            foreach (char ch in aw)
+            {
+                string tbtc = tbt.Trim(aw);
+                Test.richTextBox1.AppendText(tbtc);
+                clen += 1;
+            }
+            */
         }
 
-        private void cncbtn_Click(object sender, EventArgs e)
+        private void Cncbtn_Click(object sender, EventArgs e)
         {
 
         }
